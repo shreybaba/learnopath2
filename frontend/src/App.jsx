@@ -717,7 +717,7 @@ export default function App() {
       <header className="nav-header flex-between" style={{ padding: '1rem 2rem' }}>
         <div className="logo-container" style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
           <Brain className="logo-icon" size={24} style={{ color: 'var(--color-primary)' }} />
-          <span className="text-gradient-purple-cyan" style={{ fontSize: '1.4rem', fontWeight: '800' }}>GlobalCourse AI</span>
+          <span className="text-gradient-purple-cyan" style={{ fontSize: '1.4rem', fontWeight: '800' }}>LearnoPath</span>
         </div>
         
         {currentUser && (
@@ -785,7 +785,7 @@ export default function App() {
         marginTop: 'auto'
       }}>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1.5rem', flexWrap: 'wrap' }}>
-          <span>© 2026 GlobalCourse AI. All rights reserved.</span>
+          <span>© 2026 LearnoPath. All rights reserved.</span>
           <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
             <Layers size={12} /> Database: <strong>SQLite (GlobalCourse.db)</strong>
           </span>
