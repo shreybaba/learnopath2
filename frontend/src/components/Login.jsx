@@ -109,7 +109,7 @@ export default function Login({ onLoginSuccess }) {
             <div style={{ background: 'rgba(159, 122, 234, 0.15)', padding: '0.5rem', borderRadius: '10px', color: 'var(--color-primary)' }}>
               <Brain size={28} />
             </div>
-            <h2 className="text-gradient-purple-cyan" style={{ fontSize: '1.8rem', fontWeight: '800' }}>GlobalCourse AI</h2>
+            <h2 className="text-gradient-purple-cyan" style={{ fontSize: '1.8rem', fontWeight: '800' }}>LearnoPath</h2>
           </div>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
             {isRegister ? 'Create your elite academic account' : 'Log in to access your custom learning pathways'}
