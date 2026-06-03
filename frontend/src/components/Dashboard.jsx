@@ -110,7 +110,7 @@ export default function Dashboard({
       <div className="flex-between" style={{ borderBottom: '1px solid var(--border-glass)', paddingBottom: '1.25rem', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem' }}>
         <div>
           <h1 className="text-gradient-purple-cyan" style={{ fontSize: '2.2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <Sparkles size={28} /> GlobalCourse AI
+            <Sparkles size={28} /> LearnoPath
           </h1>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
             Academic Advisor & Course recommendations tailored for: <strong>{profile.selected_field || 'Engineering & Tech'}</strong>
